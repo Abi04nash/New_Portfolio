@@ -14,7 +14,7 @@ const First = () => {
         
       </div>
       <div className='right1'>
-        <img className='teacher' src="/images/Me.png" alt="" />
+        <img className='teacher' src="./images/Me.png" alt="" />
       </div>
       
     </div>

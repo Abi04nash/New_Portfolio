@@ -35,7 +35,7 @@ function App() {
   
 
   return (
-    <Router>
+    <Router basename="/New_Portfolio">
       <Nav />
       {/* <div className='page'>
       <Routes>

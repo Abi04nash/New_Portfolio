@@ -486,7 +486,14 @@ form button:hover{
 
 
 
+.list {
+  padding-left: 0; /* Removes default padding */
+}
 
+.list li {
+  list-style-type: none; /* Removes bullet points */
+  font-weight: 600;
+}
 
 
 

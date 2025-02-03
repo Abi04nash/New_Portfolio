@@ -14,15 +14,27 @@ const Nav = () => {
       </div>
 
 
-      <div className={`list ${isOpen ? "open" : ""}`} >
-        
-      <NavLink to="/first" className={({ isActive }) => isActive ? "active" : ""} ><ul><i class="fa-solid fa-house"></i> Home</ul></NavLink>
-      <NavLink to="/third" className={({ isActive }) => isActive ? "active" : ""} ><ul><i class="fa-solid fa-address-card"></i>About</ul></NavLink>
-      <NavLink to="/second" className={({ isActive }) => isActive ? "active" : ""} ><ul><i class="fa-solid fa-chalkboard-user"></i>Education</ul></NavLink>
-      <NavLink to="/fourth" className={({ isActive }) => isActive ? "active" : ""} ><ul><i class="fa-solid fa-school"></i>Skills</ul></NavLink>
-      <NavLink to="/project" className={({ isActive }) => isActive ? "active" : ""} ><ul><i class="fa-solid fa-chalkboard-user"></i>Projects</ul></NavLink>
-      <NavLink to="/fifth" className={({ isActive }) => isActive ? "active" : ""} ><ul><i class="fa-solid fa-address-book"></i>Connect</ul></NavLink>
-      </div>
+      <div className={`list ${isOpen ? "open" : ""}`}>
+  <NavLink to="/first" className={({ isActive }) => isActive ? "active" : ""}>
+    <li><i className="fa-solid fa-house"></i> Home</li>
+  </NavLink>
+  <NavLink to="/third" className={({ isActive }) => isActive ? "active" : ""}>
+    <li><i className="fa-solid fa-address-card"></i> About</li>
+  </NavLink>
+  <NavLink to="/second" className={({ isActive }) => isActive ? "active" : ""}>
+    <li><i className="fa-solid fa-chalkboard-user"></i> Education</li>
+  </NavLink>
+  <NavLink to="/fourth" className={({ isActive }) => isActive ? "active" : ""}>
+    <li><i className="fa-solid fa-school"></i> Skills</li>
+  </NavLink>
+  <NavLink to="/project" className={({ isActive }) => isActive ? "active" : ""}>
+    <li><i className="fa-solid fa-chalkboard-user"></i> Projects</li>
+  </NavLink>
+  <NavLink to="/fifth" className={({ isActive }) => isActive ? "active" : ""}>
+    <li><i className="fa-solid fa-address-book"></i> Connect</li>
+  </NavLink>
+</div>
+
     </div>
   )
 }

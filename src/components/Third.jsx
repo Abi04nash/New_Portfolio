@@ -9,7 +9,7 @@ const Third = () => {
 
     <div className='third'>
       <div className='left2'>
-        <img src="/images/aa.png" alt="" />
+        <img src="./images/aa.png" alt="" />
       </div>
       <div className='right2'>
         <p className='para'>Hello! , I am Abinash Mishra, a passionate web developer and programmer currently pursuing my Bachelor's degree in Information Technology at IIIT Bhubaneswar.</p>
